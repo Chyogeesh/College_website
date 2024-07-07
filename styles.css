@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro, .search-bar, .highlights, .college-list, .college-details {
+    margin-bottom: 20px;
+}
+
+.college-card {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    color: black;
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: 200px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: black;
+    color: yellow;
+    border: none;
+    cursor: pointer;
+}
