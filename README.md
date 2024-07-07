@@ -1,5 +1,4 @@
-# College_website
-It is a internship assignment
+
 # College Finder
 
 A simple college listing website built with HTML, CSS, and JavaScript.
@@ -40,3 +39,4 @@ A simple college listing website built with HTML, CSS, and JavaScript.
 - Implement actual search functionality.
 - Add more details to the college description page.
 - Connect to a backend to fetch real college data.
+To create a college listing website with a home page, college listing page, and college description page, we can use HTML, CSS, and a bit of JavaScript. The color code will follow the yellow, black, and white theme as specified. Below are the basic implementations for each of these pages:
