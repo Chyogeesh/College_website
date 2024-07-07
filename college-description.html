@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Details - College Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>College Finder</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="college-listing.html">Colleges</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="college-details">
+            <h2 id="college-name">College Name</h2>
+            <p id="college-description">Detailed description about the college.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 College Finder. All rights reserved.</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const params = new URLSearchParams(window.location.search);
+            const collegeId = params.get('id');
+            
+            // Fetch college data based on collegeId (this is a placeholder)
+            const colleges = {
+                1: {
+                    name: "College 1",
+                    description: "Description for College 1."
+                },
+                2: {
+                    name: "College 2",
+                    description: "Description for College 2."
+                },
+                3: {
+                    name: "College 3",
+                    description: "Description for College 3."
+                }
+            };
+
+            const college = colleges[collegeId];
+            if (college) {
+                document.getElementById('college-name').textContent = college.name;
+                document.getElementById('college-description').textContent = college.description;
+            }
+        });
+    </script>
+</body>
+</html>
